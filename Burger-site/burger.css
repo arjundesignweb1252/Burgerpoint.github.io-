@@ -1,0 +1,578 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.delivery .container-fluid{
+/* border: 1px solid black; */
+background-color: rgb(246, 164, 63);
+
+}
+.delivery .container-fluid .row .free-delivery{
+    /* border: 1px solid black; */
+    
+    }
+    .delivery .container-fluid .row .free-delivery .fa-location-dot{
+        color: white;
+        margin-left: 5rem;
+        font-size: 17px;
+        }
+ .free-delivery span{
+    color: white;
+    font-weight: lighter;
+    font-size: 17px;
+ }
+ .free-delivery .icons-log .fa-brands{
+    /* border: 1px solid black; */
+    margin-left: 40px;
+    color: white;
+ }
+
+ .navbar {
+   
+    background-color: rgb(248, 151, 33);
+ }
+ .navbar .menu-nav{
+    /* border: 1px solid black; */
+ }
+ .navbar .point{
+    margin-left: 4rem;
+    /* border: 1px solid black; */
+ }
+ .navbar #navbarNav{
+    margin-left: 22rem;
+ }
+ .navbar-nav{
+    margin-left: 3rem;
+ }
+ .searched{
+    margin-left: 20px;
+    border-radius: 10px;
+ }
+ .searched input[type="search"]{
+    border-radius: 7px;
+    border: none;
+    /* border: 1px solid black; */
+    outline: none;
+ }
+ .searched button[type="submit"]{
+    margin-left: 2rem;
+    border-radius: 5px;
+    width: 70px;
+    border: none;
+    background-color: antiquewhite;
+ }
+ .nav-item .nav-link{
+    color: white;
+ }
+ .point span{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 24px;
+ }
+
+ /* banner-section */
+ .banner .container-fluid{
+    background-color: rgb(250, 176, 87);
+ }
+ .banner .container-fluid .row .good-time h3{
+margin-top: 9rem;
+color: white;
+box-sizing: border-box;
+border-style: dashed;
+text-align: center;
+ }
+ .good-time h1{
+    font-size: 6rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(123, 70, 1);
+    text-shadow: 2px 8px 2px rgb(228, 227, 227);
+    
+ }
+ .good-time h1 .off{
+    font-size: 30px;
+    color: white;
+    text-shadow: none;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    border-radius: 12%;
+    background-color: rgb(247, 195, 38);
+ }
+ .good-time .banner-img{
+    width: 500px;
+    height: 520px;
+ }
+ .special{
+   text-align: center;
+   font-size: 40px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: bold;
+   margin-top: 3rem;
+ }
+ .special::after{
+   content: "";
+   display: block;
+   margin: 10px auto;
+   width: 100px;
+   height: 5px;
+   background-color: orange;
+   border-radius: 7px;
+ }
+ .choice{
+   margin-top: 30px;
+ }
+ .choice-burger{
+   position: relative;
+ }
+ .first-img h1{
+position: absolute;
+top: 30px;
+left: 35px;
+color: white;
+font-size: 55px;
+font-weight: bold;
+ }
+ .first-img h3{
+   position: absolute;
+   top: 0px;
+   left: 35px;
+   color: white;
+   font-size: 30px;
+   font-weight: bold;
+   }
+   .first-img button{
+      position: absolute;
+      top: 25rem;
+      left: 200px;
+      width: 100px;
+      height: 40px;
+      border-radius: 10px;
+      border: none;
+      background-color: rgb(240, 170, 42);
+      color: white;
+      transition: 10s;
+      animation-name: design;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+   }
+   .first-img button:hover{
+      background-color: rgb(220, 143, 0);
+      box-shadow: 2px 4px 10px black;
+   }
+ .first-img img{
+   width: 550px;
+   height: 500px;
+  
+ }
+ .second-img1{
+   position: relative;
+ }
+.second-img1 h3{
+position: absolute;
+top: 30px;
+left: 35px;
+color: white;
+font-size: 30px;
+font-weight: bold;
+}
+
+.second-img1 h1{
+   position: absolute;
+   top: 65px;
+   left: 35px;
+   color: white;
+   font-size: 45px;
+   font-weight: bold;
+   }
+ .second-img .second-img1 img{
+height: 220px;
+width: 550px;
+margin-top: 20px;
+ }
+ .second-img .second-img2 img{
+   height: 220px;
+   width: 550px;
+   margin-top: 30px;
+    }
+ .choice-burger{
+   width: 100%;
+   height: 400px;
+   /* border: 1px solid black; */
+ }
+ 
+ .second-img2{
+   position: relative;
+ }
+.second-img2 h3{
+position: absolute;
+top: 30px;
+left: 35px;
+color: white;
+font-size: 30px;
+font-weight: bold;
+}
+
+.second-img2 h1{
+   position: absolute;
+   top: 65px;
+   left: 35px;
+   color: white;
+   font-size: 45px;
+   font-weight: bold;
+   }
+   @keyframes design{
+      0%{
+         background-color: rgb(240, 170, 42);
+         box-shadow: 2px 5px 10px red;
+      }
+      30%{
+         background-color: rgb(215, 108, 21);
+      }
+   }
+   
+   .all-burger{
+      margin-left: 40%;
+      margin-top: 11rem;
+      width: 250px;
+      height: 50px;
+      font-size: 20px;
+      background-color: rgb(251, 175, 34);
+      color: white;
+      border: none;
+      border-radius: 7px;
+      animation-name: alling;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      transition: 3s;
+   }
+   @keyframes alling{
+0%{
+   background-color: rgb(248, 169, 22);
+   /* box-shadow: 2px -4px  2px -4px rgb(158, 73, 73); */
+}
+25%{
+   background-color: red;
+}
+50%{
+   background-color: greenyellow;
+}
+75%{
+   background-color: blueviolet;
+}
+100%{
+   background-color: rgb(58, 188, 214);
+   
+}
+   }
+   .enjoy{
+      text-align: center;
+      margin-top: 30px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: bold;
+      font-size: 45px;
+   }
+   .offering p{
+text-align: center;
+margin-top: 10px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   .enjoy-pary-burger .row .enjoying{
+      width: 100%;
+      /* border: 1px solid black; */
+   }
+   .owl-theme .item{
+      width: 100%;
+      /* border: 1px solid black; */
+   }
+   .enjoy-pary-burger .item .first-burger img{
+      width: 100%;
+      height: 250px;
+   }
+   .item .first-into-burger h3{
+      text-align: center;
+      font-size: 20px;
+   }
+   .first-into-burger .price{
+      text-align: center;
+   }
+   .quantity-counter{
+      /* border: 1px solid black; */
+      width: 80%;
+      margin-left: 15%;
+   }
+   .quantity-counter .value{
+      width: 30px;
+      border-radius: 4px;
+      border: none;
+      background-color: rgb(172, 238, 237);
+   }
+   .quantity-counter .increment{
+      width: 30px;
+      border: none;
+      border-radius: 4px;
+      background-color: orange;
+   }
+   .quantity-counter .decrement{
+      width: 30px;
+      border: none;
+      border-radius: 4px;
+      background-color: orange;
+   }
+   .first-into-burger .booking{
+      margin-left: 30%;
+      width: 100px;
+      height: 30px;
+      border: none;
+      border-radius: 5px;
+      background-color: orange;
+      color: white;
+   }
+   .upcoming{
+      margin-top: 100px;
+      border-bottom-right-radius: 4px black;
+      box-shadow: 2px 5px 30px 5px black;
+   }
+   .upcoming .coming h5{
+      margin-top: 2rem;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: bold;
+
+   }
+   .upcoming .coming h1{
+      font-size: 45px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: bold;
+   }
+   .upcoming .coming img{
+      width: 100%;
+      height: 300px;
+   }
+   .bookyour .reservation img{
+width: 300px;
+height: 300px;
+   }
+   .bookyour .reservation h5{
+text-align: center;
+margin-top: 80px;
+font-size: 30px;
+font-weight: bold;
+   }
+   .bookyour .reservation h1{
+      text-align: center;
+      font-size: 65px;
+      margin-top: 20px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: bold;
+   }
+
+.table{
+   width: 100%;
+   display: flex;
+   /* border: 1px solid black; */
+}
+.table .bottle {
+   width: 20%;
+   height: ;
+   /* border: 1px solid black; */
+}
+.table .bottle img{
+   width: 300px;
+   height: 300px;
+   /* border: 1px solid black; */
+}
+.table .data-table{
+   width: 60%;
+   /* border: 1px solid black; */
+}
+.data-table .fill-form{
+   /* border: 1px solid black; */
+   margin-top: 50px;
+   margin-left: 0px;
+}
+.fill-form > input[type="text"]{
+   width: 300px;
+   border: none;
+   background-color: antiquewhite;
+   outline: none;
+}
+.fill-form > input[type="text"]::placeholder{
+   color: rgb(233, 101, 30);
+}
+.fill-form > input[type="email"]{
+   width: 300px;
+   margin-left: 30px;
+   border: none;
+   background-color: antiquewhite;
+   outline: none;
+}
+.fill-form > input[type="email"]::placeholder{
+   color: rgb(233, 101, 30);
+}
+.fill-form > input[type="date"]{
+   width: 300px;
+   border: none;
+   background-color: antiquewhite;
+   outline: none;
+}
+.fill-form > input[type="date"]::placeholder{
+   color: rgb(233, 101, 30);
+}
+.fill-form > input[type="time"]{
+   width: 300px;
+   margin-left: 30px;
+   border: none;
+   background-color: antiquewhite;
+   outline: none;
+}
+.fill-form > input[type="number"]{
+   width: 300px;
+   border: none;
+   background-color: antiquewhite;
+   outline: none;
+}
+.fill-form > input[type="number"]::placeholder{
+   color: rgb(233, 101, 30);
+}
+.fill-form > .find{
+   width: 300px;
+   margin-left: 30px;
+   background-color: rgb(240, 157, 48);
+   border: none;
+   border-radius: 5px;
+   color: white;
+}
+.table .pizzing1{
+   width: 20%;
+   /* border: 1px solid black; */
+}
+.pizzing1 .pizzzz{
+   width: 200px;
+   height: 200px;
+   margin-top: 90px;
+}
+.footer{
+   margin-top: 80px;
+   
+}
+.footer img{
+   height: 400px;
+   width: 100%;
+   /* border: 1px solid black; */
+}
+
+.last-footer{
+   position: absolute;
+   
+}
+.last-footer p{
+   position: relative;
+   top: -300px;
+   color: rgb(255, 255, 255);
+   font-style: normal;
+   left: 20px;
+   /* border: 1px solid black; */
+}
+.last-footer .last-link{
+   position: absolute;
+   top: -380px;
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   font-size: 30px;
+   left: 20px;
+   /* border: 1px solid black; */
+}
+.last-footer > input[type="search"]{
+   position: relative;
+   top: -250px;
+   left: 30px;
+   height: 40px;
+   border-radius: 7px;
+   border: none;
+   width: 200px;
+   outline: none;
+}
+.last-footer > button{
+   position: relative;
+   top: -250px;
+   left: 50px;
+   height: 40px;
+   border-radius: 7px;
+   border: none;
+   background-color: orange;
+   color: white;
+   width: 150px;
+}
+.last-footer .address{
+   position: relative;
+   /* border: 1px solid black; */
+   left: 50rem;
+   width: 240px;
+   top: -20rem;
+   color: white;
+}
+.address span{
+   color: rgb(255, 255, 255);
+}
+
+.scooter img{
+width: 30%;
+height: 300px;
+margin-left: 35%;
+border-radius: 50%;
+}
+.scooter h1{
+   text-align: center;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: bold;
+   margin-top: 20px;
+}
+.scooter h1::after{
+   content: "";
+   display: block;
+   width: 200px;
+   height: 4px;
+   background-color: orange;
+   border-radius: 4px;
+   margin: 10px auto;
+}
+.scooter h6{
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.scooter  button{
+   margin-left: 40%;
+   border: 1px solid rgb(10, 9, 8);
+   background-color: orange;
+   width: 200px;
+   border-radius: 5px;
+}
+.map > iframe{
+   margin-top: 80px;
+   height: 300px;
+   width: 100%;
+}
+.data-details .container{
+background-color: orange;
+}
+.data-details .container .row .detailss ul {
+  display: flex;
+  margin-left: 0px;
+   }
+.data-details .container .row .detailss ul li{
+list-style: none;
+margin-left: 10px;
+margin-top: 10px;
+}
+.data-details .container .row .detailss ul li a{
+  text-decoration: none;
+   margin-left: 10px;
+   margin-top: 10px;
+   color: white;
+   }
+   .detailss p{
+margin-top: 10px;
+color: white;
+   }

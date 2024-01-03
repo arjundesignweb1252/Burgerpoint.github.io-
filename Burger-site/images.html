@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <!-- carousel-start -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- carousel-end -->
+    <style>
+        .image{
+            width: 500px;
+            height: 500px;
+            animation-name: arjun;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            background-image: url(imges/amazing-delicious-cheese-burger_727939-299.avif);
+            transition: 7s;
+            animation-delay: 4s;
+          background-size: cover;
+
+        }
+        @keyframes arjun{
+            0%{
+                background-image: url(imges/amazing-delicious-cheese-burger_727939-299.avif);
+                transform: skew(1.5);
+                transform-origin: 40% 20%;
+            }
+            50%{
+                background-image: url(imges/exploding-burger-with-vegetables-melted-cheese-black-background-generative-ai_157027-1734.avif);
+            }
+            100%{
+                background-image: url(imges/delicious-crispy-chicken-burger-ai_742252-5712.avif);
+            }
+        }
+        .quantity-counter {
+  display: flex;
+  flex-direction: column;
+  width: 40px;
+  .value {
+    border: 1px solid #adadad;
+    border-radius: 3px;
+    margin: 2px 0;
+    padding: 4px;
+    text-align: center;
+    -moz-appearance: textfield;
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+  .increment,
+  .decrement {
+    border: 1px solid black;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: aquamarine;
+    color: #8a1919;
+    height: 30px;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="image">
+
+    </div>
+    <div class="owl-carousel owl-theme">
+        <div class="item"><h4>1</h4></div>
+        <div class="item"><h4>2</h4></div>
+        <div class="item"><h4>3</h4></div>
+        <div class="item"><h4>4</h4></div>
+        <div class="item"><h4>5</h4></div>
+        <div class="item"><h4>6</h4></div>
+        <div class="item"><h4>7</h4></div>
+        <div class="item"><h4>8</h4></div>
+        <div class="item"><h4>9</h4></div>
+        <div class="item"><h4>10</h4></div>
+        <div class="item"><h4>11</h4></div>
+        <div class="item"><h4>12</h4></div>
+    </div>
+
+    <div class="quantity-counter">
+        <button id="counter-increment" class="increment">+</button>
+        <input id="counter-value" class="value" type="number" value="0">
+        <button id="counter-decrement" class="decrement">-</button>
+      </div>
+</body>
+<script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+</script>
+<script>
+    var counterValue = document.querySelector("#counter-value");
+var counterIncrement = document.querySelector("#counter-increment");
+var counterDecrement = document.querySelector("#counter-decrement");
+var count = 0;
+
+this.counterIncrement.addEventListener('click', () => {
+  this.count++
+  this.counterValue.setAttribute("value", count);
+});
+
+this.counterDecrement.addEventListener('click', () => {
+  this.count--
+  this.counterValue.setAttribute("value", count);
+});
+</script>
+</html>
